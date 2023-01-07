@@ -127,7 +127,7 @@ void inchiriereAutocare(int nrCast, int nrFig) {
     costTotal += cost;
 }
 
-void costuriAdapatAnimale(int nrCast, int nrFig, int nrZile) {
+void costuriBauturi(int nrCast, int nrFig, int nrZile) {
     int nrTotal = nrCast + nrFig;
 
     float floatCafea = 0.5 * (float)nrTotal;
@@ -273,7 +273,7 @@ int main() {
     inchiriereAutocare(nrCast, nrFig);
     repartizareHotel(nrCast, nrFig, nrZile);
     writeCosturiMachiajMancare();
-    costuriAdapatAnimale(nrCast, nrFig, nrZile);
+    costuriBauturi(nrCast, nrFig, nrZile);
     inchiriereCastel(nrZile);
     creareMeniu();
 
